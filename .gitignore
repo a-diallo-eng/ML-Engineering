@@ -1,0 +1,42 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/secrets.toml
+*.streamlit/
+
+# Models (if too large, uncomment)
+# models/*.pkl
+# models/*.h5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data
+*.csv
+data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
